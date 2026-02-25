@@ -1,4 +1,3 @@
-```sql
 CREATE TABLE superstore (
     order_id VARCHAR,
     order_date DATE,
@@ -17,7 +16,6 @@ CREATE TABLE superstore (
     profit_margin NUMERIC,
     delivery_days INT
 );
-```sql
 
 SELECT * FROM store;
 
@@ -144,6 +142,7 @@ SELECT
 FROM store
 GROUP BY category
 ORDER BY percentage DESC;
+
 
 
 
